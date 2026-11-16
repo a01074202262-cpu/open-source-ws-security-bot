@@ -1,0 +1,17 @@
+{
+  "name": "discord-security-bot",
+  "version": "2.9.5",
+  "description": "Render에서 호스팅 가능한 Discord 보안 봇 - Turso 저장소, 안티누크 격리 채팅, 모더레이션 로그",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.0",
+    "mongodb": "^6.9.0",
+    "@libsql/client": "^0.15.15"
+  }
+}
